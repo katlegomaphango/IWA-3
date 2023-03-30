@@ -1,7 +1,5 @@
 // scripts.js
-
-import company from 'configuration'
-import year from 'configuration'
+import { company, year} from './configuration.js';
 
 const message = '© ' + company + ' (' + year + ')'
-document.querySelector('footer').innerText = message
+document.querySelector('footer').innerText = message;
